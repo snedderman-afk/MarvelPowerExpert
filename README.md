@@ -21,7 +21,7 @@ After identifying two columns that appeared to have a relationship, I created a 
 
 In my first graph, I used geom_point(), which produced what appeared to be a roughly linear relationship between Strength and Durability. However, I quickly noticed that many data points were overlapping. To address this, I created a second plot using geom_jitter(), which spreads the points slightly and allows all observations to be seen clearly.
 From the jittered plot, I observed that Avengers with high Durability and high Strength almost always possess powers. There is one notable exception: a non-powered Avenger who shows unusually high Durability and Strength, standing out from the general pattern.
-I also identified an outlier — a powered Avenger with very low Strength and Durability. This could be due to several factors: their abilities may not be physical (e.g., magic, technology, intellect, or energy-based powers), their power classification may come from a non-combat skill, or they may have powers that don’t contribute to physical stats. This explains why their durability and strength scores are low despite being labeled as powered.
+I also identified an outlier. A powered Avenger with very low Strength and Durability. This could be due to several factors: their abilities may not be physical (e.g., magic, technology, intellect, or energy-based powers), their power classification may come from a non-combat skill, or they may have powers that don’t contribute to physical stats. This explains why their durability and strength scores are low despite being labeled as powered.
 
 ![graph 2](Avengers_Durability_Strength_GEOMJITTER.png)
 
