@@ -25,6 +25,10 @@ I also identified an outlier. A powered Avenger with very low Strength and Durab
 
 ![graph 2](Avengers_Durability_Strength_GEOMJITTER.png)
 
+## **Linear Model**
+
+I created a linear regression model after observing a linear relationship between Durability and Strength. The model produced an R-squared value of 0.7583. This value indicates
+that approximately 75.83% of the variation in Durability can be explained by Strength. In other words, there is a strong positive relationship between these two attributes, although about 24% of the variation is due to other factors not captured by this model.
 
 
 
